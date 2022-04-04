@@ -1,0 +1,405 @@
+﻿/*1. Главный экран*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #e6ebf0;
+    max-width: 100%;
+}
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url(fonts/Manrope-Bold.ttf);
+}
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url(fonts/Manrope-Regular.ttf);
+}
+
+.shapka {
+    font-family: 'Manrope-Bold', sans-serif;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    height: 120px;
+    margin-top: 50px;
+    width: 1160px;
+}
+nav {
+    float: left;
+    margin-left: 5%;
+    margin-right: 150px;
+}
+nav2 a {
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 2px;
+}
+nav1 img{
+    float: right;
+    border-radius: 50%;
+}
+nav2 a:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+nav1 img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+
+
+/*2. Курсы*/
+
+.kurs {
+    width: 1160px;
+    display: flex;
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    margin-left: 103px;
+}
+.kurs1 {
+    text-align: left;
+    padding-left: 45px;
+    padding-right: 10px;
+    margin-bottom:50px;
+}
+    .kurs1 a {
+        background-color: #3586ff;
+        color: white;
+        border: 1px double #3586ff;
+        padding: 5px 30px 10px 30px;
+        border-radius: 5px;
+    }
+        .kurs1 a:hover {
+            background-color: #3586ff;
+            color: black;
+            border: 1px double black;
+        }
+.kurs2 {
+    float: right;
+}
+
+
+/*3. Пробный урок*/
+
+.blok {
+    font-family: Manrope-Regular, sans-serif;
+    width: 1160px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 103px;
+}
+.blok1 {
+    display: inline-block;
+    width: 300px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.blok a{
+    background-color: #3586ff;
+    color: white;
+    border: 1px double #3586ff;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+}
+.blok a:hover {
+    background-color: #3586ff;
+    color: black;
+    border: 1px double black;
+}
+
+
+/*4. Карточка услуги*/
+.besplatno a {
+    background-color: #3586ff;
+    color: white;
+    border: 1px double #3586ff;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+    margin-left: 95px;
+}
+
+    .besplatno a:hover {
+        background-color: #3586ff;
+        color: black;
+        border: 1px double black;
+    }
+.besplatno {
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    max-width: 1160px;
+    height: 490px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 103px;
+    background-image: url(5.1.jpg);
+    margin-bottom: 50px;
+}
+
+
+/*5. О нас*/
+.uslugi {
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    max-width: 1160px;
+    margin-left: 103px;
+    display:inline-block;
+    text-align:center;
+}
+.uslugi1{
+    border-radius: 5px;
+    float:left;
+}
+.uslugi2 {
+    border-radius: 5px;
+    float: right;
+    text-align:left;
+    width:590px;
+    padding-left: 10px;
+    margin-bottom:50px;
+}
+    .uslugi2 a {
+        background-color: #3586ff;
+        color: white;
+        border: 1px double #3586ff;
+        padding: 5px 30px 10px 30px;
+        border-radius: 5px;
+    }
+
+        .uslugi2 a:hover {
+            background-color: #3586ff;
+            color: black;
+            border: 1px double black;
+        }
+.td {
+    background-color: #f1f4f8;
+    color: black;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.doverie a {
+    background-color: #f1f4f8;
+    color: black;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.doverie .t {
+    background-color: #3586ff;
+    color: white;
+    border: 1px double #3586ff;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.doverie {
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    max-width: 1160px;
+    margin-left: 103px;
+    display: inline-block;
+    text-align: left;
+}
+    .doverie p{
+        font-size: 20px;
+    }
+.doverie1 {
+    display: inline-block;
+    justify-content:space-between;
+    width: 280px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    vertical-align:top;
+    text-align:center;
+}
+.fon{
+    background-color: #f1f4f8;
+    max-width: 1366px;
+    padding: 50px 0 50px 0;
+}
+.fon h1{
+    background-color: #f1f4f8;
+}
+.fon p{
+    background-color: #f1f4f8;
+}
+.onas {
+    background-color: #f1f4f8;
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    max-width: 1160px;
+    margin-left: 103px;
+    display: inline-block;
+    text-align: center;
+}
+    .onas a {
+        background-color: #3586ff;
+        color: white;
+        border: 1px double #3586ff;
+        padding: 5px 30px 10px 30px;
+        border-radius: 5px;
+    }
+
+        .onas a:hover {
+            background-color: #3586ff;
+            color: black;
+            border: 1px double black;
+        }
+.onas2 {
+    background-color: #f1f4f8;
+    border-radius: 5px;
+    float: right;
+    margin-top: 30px;
+}
+
+.onas1 {
+    background-color: #f1f4f8;
+    float: left;
+    text-align: left;
+    width: 580px;
+    margin-bottom: 50px;
+}
+
+
+
+/*6. Как это работает*/
+.algoritm {
+    display: inline-block;
+    justify-content: space-between;
+    width: 270px;
+    margin-right: 7px;
+    margin-left: 7px;
+    text-align: left;
+    vertical-align: top;
+}
+    .algoritm h2 {
+        background-color: #3586ff;
+        color: white;
+        width: 90px;
+        padding: 5px;
+        text-align:center;
+        border-radius: 15px;
+    }
+.ritm {
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    width: 1160px;
+    margin-left: 103px;
+    margin-bottom: 50px;
+}
+.ritm h1 {
+    text-align:center;
+}
+
+
+/*7. Форма отправки по подбору плана питания*/
+.plan {
+    font-family: Manrope-Regular, sans-serif;
+    font-size: 24px;
+    width: 1366px;
+    background-color: #f0f3f5;
+    padding-top: 100px;
+    padding: 50px;
+}
+.form p{
+    background-color: #f0f3f5;
+}
+.form h1{
+    background-color: #f0f3f5;
+}
+.form {
+    background-color: #f0f3f5;
+    width: 700px;
+    margin-left: 363px;
+    text-align: center;
+}
+.plan a {
+    background-color: #3586ff;
+    color: white;
+    border: 1px double #3586ff;
+    padding: 5px 30px 10px 30px;
+    border-radius: 5px;
+}
+.form1 {
+    background-color: #f0f3f5;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+    .plan a:hover {
+        background-color: #3586ff;
+        color: black;
+        border: 1px double black;
+    }
+input {
+    border: 1px solid blue;
+    background-color: #f0f3f5;
+    height: 25px;
+    margin-right: 50px;
+}
+label {
+    background-color: #f0f3f5;
+    float:left;
+    padding-right: 210px;
+}
+.b {
+    width: 500px;
+    float: left;
+}
+.c {
+    width: 225px;
+    float:left;
+}
+.m td {
+    background-color: #f0f3f5;
+    width: 250px;
+    font-size: 20px;
+}
+
+
+/*8. Подвал*/
+.footer {
+    font-family: 'Manrope-Bold', sans-serif;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 50px;
+    width: 1160px;
+}
+footer1 {
+    float: left;
+    margin-left: 1%;
+}
+footer2 {
+    justify-content: space-between;
+    margin-left: 5px;
+    padding: 5px;
+}
+footer3 {
+    float: right;
+    margin-right: 1%;
+    color: black;
+}
+footer3 a{
+    text-decoration: none;
+}
+
+footer2 a:hover {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+footer3 a:hover {
+    color:blue;
+}
+
+
+
+
